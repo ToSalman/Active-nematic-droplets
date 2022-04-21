@@ -11,7 +11,7 @@ frames=length(u_original);
 for k=1:length(centersNew)
     Co=centersNew(k,:);
     Ro=radiiNew(k,:);
-    mask = createCirclesMask(I,Co,Ro-piv_win/2);
+    mask = createCirclesMask(I,Co,Ro-piv_win/2);    %creating mask to apply on PIV for each circle individually
     [m, n]=size(fu);
     A=[];
     count=0;
@@ -22,7 +22,7 @@ for k=1:length(centersNew)
         fvd=v_smoothed{ii,1};
         fud=v_smoothed{ii,1};
         
-        for p=1:lc
+        for p=1:lc  %adding to correlation length frames to elliminate noise from PIV
             fv=v_smoothed{ii+p,1}+fv;
             fu=v_smoothed{ii+p,1}+fu;
         end
