@@ -1,14 +1,17 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors: Salman Alam, Jeremy Laprade
-- family-names: "Salman Alam"
-  given-names: "Salman Alam"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Lisa"
-  given-names: "Mona"
-  orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "Active-nematic-droplets"
-version: 1.0.0
-doi: 10.5281/zenodo.1234
-date-released: 2023-07-31
-url: "https://github.com/ToSalman/Active-nematic-droplets"
+title: Detecting circles and flow measurement from PIV
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Salman
+    family-names: Alam
+    email: toSalmanAlam@gmail.com
+  - given-names: Jeremy
+    family-names: Laprade
+    email: jeremylaprade@brandeis.edu
+repository-code: 'https://github.com/ToSalman/Active-nematic-droplets'
